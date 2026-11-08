@@ -1,0 +1,69 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (lin64) Build 6299465 Fri Nov 14 12:34:56 MST 2025
+| Date         : Sat Oct 31 22:40:22 2026
+| Host         : (removed for double-blind review)
+| Command      : report_utilization -hierarchical -hierarchical_depth 4 -file reproduction/phase35_sentinel/evidence/torn01_A_only_fresh/post_synth_utilization.rpt
+| Design       : noc_ttv_phase18_basys3_top
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Synthesized
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++--------------------------------+---------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|            Instance            |           Module          | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++--------------------------------+---------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| noc_ttv_phase18_basys3_top     |                     (top) |      12795 |      12011 |     784 |    0 | 6469 |      0 |      0 |          0 |
+|   (noc_ttv_phase18_basys3_top) |                     (top) |          0 |          0 |       0 |    0 |    4 |      0 |      0 |          0 |
+|   probe                        |     noc_ttv_phase18_probe |      12712 |      11928 |     784 |    0 | 6419 |      0 |      0 |          0 |
+|     (probe)                    |     noc_ttv_phase18_probe |        134 |        134 |       0 |    0 |  137 |      0 |      0 |          0 |
+|     mesh                       | noc_ttv_observed_mesh_4x4 |      12578 |      11794 |     784 |    0 | 6282 |      0 |      0 |          0 |
+|       routers[0].router        |              router_slice |        559 |        527 |      32 |    0 |  296 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_4923 |        524 |        492 |      32 |    0 |  296 |      0 |      0 |          0 |
+|       routers[10].router       |            router_slice_0 |       1064 |        992 |      72 |    0 |  494 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_4533 |       1060 |        988 |      72 |    0 |  494 |      0 |      0 |          0 |
+|       routers[11].router       |            router_slice_1 |        756 |        716 |      40 |    0 |  380 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_4213 |        719 |        679 |      40 |    0 |  380 |      0 |      0 |          0 |
+|       routers[12].router       |            router_slice_2 |        556 |        524 |      32 |    0 |  291 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_3950 |        516 |        484 |      32 |    0 |  291 |      0 |      0 |          0 |
+|       routers[13].router       |            router_slice_3 |        773 |        717 |      56 |    0 |  399 |      0 |      0 |          0 |
+|         (routers[13].router)   |            router_slice_3 |         51 |         51 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_3620 |        722 |        666 |      56 |    0 |  399 |      0 |      0 |          0 |
+|       routers[14].router       |            router_slice_4 |        769 |        721 |      48 |    0 |  394 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_3296 |        721 |        673 |      48 |    0 |  394 |      0 |      0 |          0 |
+|       routers[15].router       |            router_slice_5 |        542 |        518 |      24 |    0 |  288 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_3037 |        512 |        488 |      24 |    0 |  288 |      0 |      0 |          0 |
+|       routers[1].router        |            router_slice_6 |        780 |        724 |      56 |    0 |  401 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_2705 |        737 |        681 |      56 |    0 |  401 |      0 |      0 |          0 |
+|       routers[2].router        |            router_slice_7 |        808 |        752 |      56 |    0 |  401 |      0 |      0 |          0 |
+|         (routers[2].router)    |            router_slice_7 |         60 |         60 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_2373 |        748 |        692 |      56 |    0 |  401 |      0 |      0 |          0 |
+|       routers[3].router        |            router_slice_8 |        569 |        537 |      32 |    0 |  297 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_2104 |        536 |        504 |      32 |    0 |  297 |      0 |      0 |          0 |
+|       routers[4].router        |            router_slice_9 |        782 |        734 |      48 |    0 |  386 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_1779 |        733 |        685 |      48 |    0 |  386 |      0 |      0 |          0 |
+|       routers[5].router        |           router_slice_10 |       1050 |        986 |      64 |    0 |  497 |      0 |      0 |          0 |
+|         (routers[5].router)    |           router_slice_10 |        110 |        110 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_1395 |        940 |        876 |      64 |    0 |  497 |      0 |      0 |          0 |
+|       routers[6].router        |           router_slice_11 |       1034 |        970 |      64 |    0 |  497 |      0 |      0 |          0 |
+|         (routers[6].router)    |           router_slice_11 |        110 |        110 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |              rtr_top_1011 |        924 |        860 |      64 |    0 |  497 |      0 |      0 |          0 |
+|       routers[7].router        |           router_slice_12 |        764 |        716 |      48 |    0 |  385 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |               rtr_top_685 |        728 |        680 |      48 |    0 |  385 |      0 |      0 |          0 |
+|       routers[8].router        |           router_slice_13 |        784 |        736 |      48 |    0 |  388 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |               rtr_top_359 |        750 |        702 |      48 |    0 |  388 |      0 |      0 |          0 |
+|       routers[9].router        |           router_slice_14 |        988 |        924 |      64 |    0 |  488 |      0 |      0 |          0 |
+|         genblk1_1.rtr          |                   rtr_top |        988 |        924 |      64 |    0 |  488 |      0 |      0 |          0 |
+|   transmitter                  |           noc_ttv_uart_tx |         82 |         82 |       0 |    0 |   46 |      0 |      0 |          0 |
++--------------------------------+---------------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+

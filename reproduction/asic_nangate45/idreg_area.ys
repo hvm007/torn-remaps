@@ -1,0 +1,7 @@
+# Area of one identity register (4-bit label) with EPOCH_W = 0, 1, 4: run three times with chparam,
+# e.g.  yosys -p "read_verilog idreg.v; chparam -set EPOCH_W 1 idreg; script idreg_area.ys"
+synth -top idreg -flatten
+dfflibmap -liberty lib/nangate45_typ.lib
+abc -liberty lib/nangate45_typ.lib
+opt_clean
+stat -liberty lib/nangate45_typ.lib

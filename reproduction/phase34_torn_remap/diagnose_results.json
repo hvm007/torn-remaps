@@ -1,0 +1,3290 @@
+[
+ {
+  "N": 3,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 8,
+  "classes": 4,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ]
+  ]
+ },
+ {
+  "N": 3,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 8,
+  "classes": 8,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 3,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 16,
+  "classes": 6,
+  "ambiguous_classes": 6,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ]
+  ]
+ },
+ {
+  "N": 3,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 3,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 32,
+  "classes": 10,
+  "ambiguous_classes": 10,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ]
+  ]
+ },
+ {
+  "N": 3,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 3,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 16,
+  "classes": 15,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ]
+  ]
+ },
+ {
+  "N": 3,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 3,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 32,
+  "classes": 31,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ]
+  ]
+ },
+ {
+  "N": 3,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 3,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ]
+  ]
+ },
+ {
+  "N": 3,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 8,
+  "classes": 4,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 8,
+  "classes": 8,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 16,
+  "classes": 6,
+  "ambiguous_classes": 6,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 32,
+  "classes": 10,
+  "ambiguous_classes": 10,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 16,
+  "classes": 15,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 32,
+  "classes": 31,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 32,
+  "classes": 16,
+  "ambiguous_classes": 16,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 64,
+  "classes": 28,
+  "ambiguous_classes": 28,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 128,
+  "classes": 52,
+  "ambiguous_classes": 52,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   4
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 32,
+  "classes": 31,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   4
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   4
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   4
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 4,
+  "cycles": [
+   4
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 128,
+  "classes": 127,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ]
+  ]
+ },
+ {
+  "N": 4,
+  "cycles": [
+   4
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 8,
+  "classes": 4,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 8,
+  "classes": 8,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 16,
+  "classes": 6,
+  "ambiguous_classes": 6,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 32,
+  "classes": 10,
+  "ambiguous_classes": 10,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 16,
+  "classes": 15,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 32,
+  "classes": 31,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 32,
+  "classes": 16,
+  "ambiguous_classes": 16,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 64,
+  "classes": 28,
+  "ambiguous_classes": 28,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 128,
+  "classes": 52,
+  "ambiguous_classes": 52,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   4
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 32,
+  "classes": 31,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   4
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   4
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   4
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   4
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 128,
+  "classes": 127,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   4
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 64,
+  "classes": 60,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 128,
+  "classes": 124,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 256,
+  "classes": 252,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   5
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   5
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   5
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 128,
+  "classes": 127,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   5
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 5,
+  "cycles": [
+   5
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 256,
+  "classes": 255,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ]
+  ]
+ },
+ {
+  "N": 5,
+  "cycles": [
+   5
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 8,
+  "classes": 4,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 8,
+  "classes": 8,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 16,
+  "classes": 6,
+  "ambiguous_classes": 6,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 32,
+  "classes": 10,
+  "ambiguous_classes": 10,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 16,
+  "classes": 15,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 16,
+  "classes": 16,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 32,
+  "classes": 31,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 32,
+  "classes": 16,
+  "ambiguous_classes": 16,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 64,
+  "classes": 28,
+  "ambiguous_classes": 28,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 128,
+  "classes": 52,
+  "ambiguous_classes": 52,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   4
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 32,
+  "classes": 31,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   4
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 32,
+  "classes": 32,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   4
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   4
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   4
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 128,
+  "classes": 127,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   4
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 64,
+  "classes": 60,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 128,
+  "classes": 124,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 256,
+  "classes": 252,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   3
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   5
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 64,
+  "classes": 63,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   5
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 64,
+  "classes": 64,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   5
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 128,
+  "classes": 127,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   5
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   5
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 256,
+  "classes": 255,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   5
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 128,
+  "classes": 64,
+  "ambiguous_classes": 64,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2,
+   2
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 256,
+  "classes": 120,
+  "ambiguous_classes": 120,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2,
+   2
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 512,
+  "classes": 232,
+  "ambiguous_classes": 232,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   2,
+   2
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 512,
+  "classes": 512,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   4
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 128,
+  "classes": 124,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   4
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   4
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 256,
+  "classes": 252,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   4
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   4
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 512,
+  "classes": 508,
+  "ambiguous_classes": 4,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   2,
+   4
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 512,
+  "classes": 512,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3,
+   3
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 128,
+  "classes": 127,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3,
+   3
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3,
+   3
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 256,
+  "classes": 255,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3,
+   3
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3,
+   3
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 512,
+  "classes": 511,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   3,
+   3
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 512,
+  "classes": 512,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   6
+  ],
+  "NA": 1,
+  "obs": "label",
+  "states": 128,
+  "classes": 127,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   6
+  ],
+  "NA": 1,
+  "obs": "pos",
+  "states": 128,
+  "classes": 128,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   6
+  ],
+  "NA": 2,
+  "obs": "label",
+  "states": 256,
+  "classes": 255,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   6
+  ],
+  "NA": 2,
+  "obs": "pos",
+  "states": 256,
+  "classes": 256,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ },
+ {
+  "N": 6,
+  "cycles": [
+   6
+  ],
+  "NA": 3,
+  "obs": "label",
+  "states": 512,
+  "classes": 511,
+  "ambiguous_classes": 1,
+  "example_diff": [
+   [
+    "A",
+    0
+   ],
+   [
+    "A",
+    1
+   ],
+   [
+    "A",
+    2
+   ],
+   [
+    "B",
+    0
+   ],
+   [
+    "B",
+    1
+   ],
+   [
+    "B",
+    2
+   ],
+   [
+    "B",
+    3
+   ],
+   [
+    "B",
+    4
+   ],
+   [
+    "B",
+    5
+   ]
+  ]
+ },
+ {
+  "N": 6,
+  "cycles": [
+   6
+  ],
+  "NA": 3,
+  "obs": "pos",
+  "states": 512,
+  "classes": 512,
+  "ambiguous_classes": 0,
+  "example_diff": null
+ }
+]

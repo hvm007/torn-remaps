@@ -1,0 +1,58 @@
+(2,)           K=18 minimal                    |P|=16  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=0s
+(2,)           K=18 minimal_minus_one          |P|=15  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=0s
+(2,)           K=18 random0                    |P|=18  undetected=16       theory==sim:True  complete:False  criterion:False  OK  t=0s
+(2,)           K=18 random1                    |P|=5   undetected=4096     theory==sim:True  complete:False  criterion:False  OK  t=0s
+(2,)           K=18 random2                    |P|=14  undetected=128      theory==sim:True  complete:False  criterion:False  OK  t=1s
+(3,)           K=19 minimal                    |P|=16  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=1s
+(3,)           K=19 minimal_minus_one          |P|=15  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=1s
+(3,)           K=19 random0                    |P|=7   undetected=2048     theory==sim:True  complete:False  criterion:False  OK  t=1s
+(3,)           K=19 random1                    |P|=14  undetected=64       theory==sim:True  complete:False  criterion:False  OK  t=1s
+(3,)           K=19 random2                    |P|=16  undetected=32       theory==sim:True  complete:False  criterion:False  OK  t=2s
+(4,)           K=20 minimal                    |P|=16  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=3s
+(4,)           K=20 minimal_minus_one          |P|=15  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=3s
+(4,)           K=20 random0                    |P|=19  undetected=64       theory==sim:True  complete:False  criterion:False  OK  t=4s
+(4,)           K=20 random1                    |P|=8   undetected=1024     theory==sim:True  complete:False  criterion:False  OK  t=4s
+(4,)           K=20 random2                    |P|=19  undetected=16       theory==sim:True  complete:False  criterion:False  OK  t=5s
+(2, 2)         K=20 minimal                    |P|=17  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=5s
+(2, 2)         K=20 minimal_minus_one          |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=6s
+(2, 2)         K=20 all_covered_disconnected   |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=7s
+(2, 2)         K=20 random0                    |P|=19  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=7s
+(2, 2)         K=20 random1                    |P|=6   undetected=4096     theory==sim:True  complete:False  criterion:False  OK  t=7s
+(2, 2)         K=20 random2                    |P|=21  undetected=32       theory==sim:True  complete:False  criterion:False  OK  t=8s
+(2, 3)         K=21 minimal                    |P|=17  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=9s
+(2, 3)         K=21 minimal_minus_one          |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=11s
+(2, 3)         K=21 all_covered_disconnected   |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=12s
+(2, 3)         K=21 random0                    |P|=9   undetected=512      theory==sim:True  complete:False  criterion:False  OK  t=13s
+(2, 3)         K=21 random1                    |P|=5   undetected=114688   theory==sim:True  complete:False  criterion:False  OK  t=13s
+(2, 3)         K=21 random2                    |P|=16  undetected=128      theory==sim:True  complete:False  criterion:False  OK  t=14s
+(2, 2, 2)      K=22 minimal                    |P|=18  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=18s
+(2, 2, 2)      K=22 minimal_minus_one          |P|=17  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=22s
+(2, 2, 2)      K=22 all_covered_disconnected   |P|=18  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=26s
+(2, 2, 2)      K=22 random0                    |P|=23  undetected=16       theory==sim:True  complete:False  criterion:False  OK  t=31s
+(2, 2, 2)      K=22 random1                    |P|=19  undetected=128      theory==sim:True  complete:False  criterion:False  OK  t=36s
+(2, 2, 2)      K=22 random2                    |P|=9   undetected=15360    theory==sim:True  complete:False  criterion:False  OK  t=38s
+(3, 3)         K=22 minimal                    |P|=17  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=43s
+(3, 3)         K=22 minimal_minus_one          |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=47s
+(3, 3)         K=22 all_covered_disconnected   |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=51s
+(3, 3)         K=22 random0                    |P|=24  undetected=16       theory==sim:True  complete:False  criterion:False  OK  t=57s
+(3, 3)         K=22 random1                    |P|=9   undetected=7168     theory==sim:True  complete:False  criterion:False  OK  t=59s
+(3, 3)         K=22 random2                    |P|=8   undetected=10240    theory==sim:True  complete:False  criterion:False  OK  t=61s
+(2, 2, 2, 2)   K=24 minimal                    |P|=19  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=79s
+(2, 2, 2, 2)   K=24 minimal_minus_one          |P|=18  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=97s
+(2, 2, 2, 2)   K=24 all_covered_disconnected   |P|=16  undetected=16       theory==sim:True  complete:False  criterion:False  OK  t=112s
+(2, 2, 2, 2)   K=24 random0                    |P|=22  undetected=128      theory==sim:True  complete:False  criterion:False  OK  t=133s
+(2, 2, 2, 2)   K=24 random1                    |P|=9   undetected=16384    theory==sim:True  complete:False  criterion:False  OK  t=141s
+(2, 2, 2, 2)   K=24 random2                    |P|=26  undetected=8        theory==sim:True  complete:False  criterion:False  OK  t=164s
+(4, 4)         K=24 minimal                    |P|=17  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=179s
+(4, 4)         K=24 minimal_minus_one          |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=193s
+(4, 4)         K=24 all_covered_disconnected   |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=208s
+(4, 4)         K=24 random0                    |P|=13  undetected=512      theory==sim:True  complete:False  criterion:False  OK  t=220s
+(4, 4)         K=24 random1                    |P|=10  undetected=3584     theory==sim:True  complete:False  criterion:False  OK  t=228s
+(4, 4)         K=24 random2                    |P|=24  undetected=128      theory==sim:True  complete:False  criterion:False  OK  t=250s
+(2, 6)         K=24 minimal                    |P|=17  undetected=2        theory==sim:True  complete:True  criterion:True  OK  t=265s
+(2, 6)         K=24 minimal_minus_one          |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=280s
+(2, 6)         K=24 all_covered_disconnected   |P|=16  undetected=4        theory==sim:True  complete:False  criterion:False  OK  t=295s
+(2, 6)         K=24 random0                    |P|=19  undetected=32       theory==sim:True  complete:False  criterion:False  OK  t=311s
+(2, 6)         K=24 random1                    |P|=18  undetected=112      theory==sim:True  complete:False  criterion:False  OK  t=326s
+(2, 6)         K=24 random2                    |P|=12  undetected=46848    theory==sim:True  complete:False  criterion:False  OK  t=336s
+rows 57 mismatches 0

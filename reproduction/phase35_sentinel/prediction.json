@@ -1,0 +1,130 @@
+{
+ "variant": "torn01_A_only_fresh",
+ "host_labels": [
+  13,
+  14,
+  2,
+  1,
+  15,
+  12,
+  3,
+  0,
+  10,
+  11,
+  4,
+  5,
+  9,
+  8,
+  7,
+  6
+ ],
+ "fabric_labels": [
+  14,
+  13,
+  2,
+  1,
+  15,
+  12,
+  3,
+  0,
+  10,
+  11,
+  4,
+  5,
+  9,
+  8,
+  7,
+  6
+ ],
+ "predicted_sha256": "1103ea67b57c9c719545ccd17fa0720f37ef5a14c31e322c10f8df2537384070",
+ "theory_packets": [
+  [
+   9,
+   12,
+   9
+  ],
+  [
+   3,
+   6,
+   3
+  ],
+  [
+   4,
+   10,
+   4
+  ],
+  [
+   6,
+   15,
+   6
+  ],
+  [
+   6,
+   15,
+   6
+  ],
+  [
+   14,
+   1,
+   13
+  ],
+  [
+   13,
+   0,
+   14
+  ],
+  [
+   2,
+   2,
+   2
+  ],
+  [
+   1,
+   3,
+   1
+  ],
+  [
+   0,
+   7,
+   0
+  ],
+  [
+   6,
+   15,
+   6
+  ],
+  [
+   6,
+   15,
+   6
+  ],
+  [
+   4,
+   10,
+   4
+  ]
+ ],
+ "predicted_wrong": [
+  5,
+  6
+ ],
+ "orders": {
+  "O1 (B0,B1,A)": {
+   "k0": "ph31/clean",
+   "k1": "ph34/torn01_A_stale",
+   "k2": "ph31/t01_one_sided",
+   "k3": "ph31/t01_self_consistent"
+  },
+  "O2 (A,B0,B1)": {
+   "k0": "ph31/clean",
+   "k1": "ph35/torn01_A_only_fresh",
+   "k2": "ph34/torn01_A_fresh",
+   "k3": "ph31/t01_self_consistent"
+  }
+ },
+ "claims": {
+  "sentinel_pkt5_catches_k1_k2_both_orders": true,
+  "pkt6_misses_one_interruption_per_order": true,
+  "k0_and_k3_label_invisible": true
+ }
+}

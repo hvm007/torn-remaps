@@ -1,0 +1,20 @@
+Phase 36, board attempt 1 (8 Nov 2026), captured with check_p36.py v1.
+Build: status=PASS, worst slack 7.353 ns, 14,271 LUTs, 6,732 FFs, Vivado 2025.2.
+
+All three trials are 26,013 bytes but are splices of two consecutive runs. The v1 capture opened
+the port while the board was still sending (the post-programming auto-run for trial 1, and the rest
+of the previous trial's run for trials 2 and 3) and started at the first "NTD2" it saw.
+
+trial  sha256(16)        start-of-stream header at   tail part == end of prediction   head part == start   rotated == prediction
+1      89a933511aeeb4f5  byte 22058                   yes, after 1 stray byte 0xFE     yes                  no (stray byte)
+2      7810cd4995f8233f  byte 21689                   yes                              yes                  yes
+3      339d32a04e463b8e  byte 21367                   yes                              yes                  yes
+
+Every complete record in all three trials is byte-identical to the pre-registered stream
+(rtl_sim_stream.bin, sha256 19ae7e54...). Trials 2 and 3 each contain all 1,131 records, but from
+two different runs, so they are not counted as confirmation. The 0xFE byte is a glitch on the TX
+line at the btnC reset, between two runs.
+
+Fix: check_p36.py v2 changes the capture only (wait for an idle line, keep the complete stream that
+begins with the campaign-0, k-0, packet-0 record). Predictions, model, RTL, bitstream and scoring
+rules are unchanged. Re-capture with the same programmed bitstream.

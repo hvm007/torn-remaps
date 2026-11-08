@@ -1,0 +1,697 @@
+{
+ "clean_sha256": "7d84c5d8229b8689b9710526161f4d2e67420e84ba289d5db830cfa166980b52",
+ "requested_labels": [
+  9,
+  3,
+  4,
+  6,
+  6,
+  14,
+  13,
+  2,
+  1,
+  0,
+  6,
+  6,
+  4
+ ],
+ "variants": {
+  "torn01_A_stale": {
+   "remap": "swap(0,1)",
+   "host": "clean",
+   "host_labels": [
+    14,
+    13,
+    2,
+    1,
+    15,
+    12,
+    3,
+    0,
+    10,
+    11,
+    4,
+    5,
+    9,
+    8,
+    7,
+    6
+   ],
+   "fabric_labels": [
+    13,
+    13,
+    2,
+    1,
+    15,
+    12,
+    3,
+    0,
+    10,
+    11,
+    4,
+    5,
+    9,
+    8,
+    7,
+    6
+   ],
+   "stale": [
+    "A",
+    "B1"
+   ],
+   "fresh": [
+    "B0"
+   ],
+   "kind": "absolute",
+   "theory_packets": [
+    [
+     9,
+     12,
+     9
+    ],
+    [
+     3,
+     6,
+     3
+    ],
+    [
+     4,
+     10,
+     4
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     14,
+     0,
+     13
+    ],
+    [
+     13,
+     1,
+     13
+    ],
+    [
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     4,
+     10,
+     4
+    ]
+   ],
+   "theory_wrong": [
+    5
+   ],
+   "predicted_sha256": "091931478da5359cbf31784eb07ae2c941a42b12ff9db55326dc3765e3213200"
+  },
+  "torn01_A_fresh": {
+   "remap": "swap(0,1)",
+   "host": "T01",
+   "host_labels": [
+    13,
+    14,
+    2,
+    1,
+    15,
+    12,
+    3,
+    0,
+    10,
+    11,
+    4,
+    5,
+    9,
+    8,
+    7,
+    6
+   ],
+   "fabric_labels": [
+    13,
+    13,
+    2,
+    1,
+    15,
+    12,
+    3,
+    0,
+    10,
+    11,
+    4,
+    5,
+    9,
+    8,
+    7,
+    6
+   ],
+   "stale": [
+    "B1"
+   ],
+   "fresh": [
+    "A",
+    "B0"
+   ],
+   "kind": "absolute",
+   "theory_packets": [
+    [
+     9,
+     12,
+     9
+    ],
+    [
+     3,
+     6,
+     3
+    ],
+    [
+     4,
+     10,
+     4
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     14,
+     1,
+     13
+    ],
+    [
+     13,
+     0,
+     13
+    ],
+    [
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     4,
+     10,
+     4
+    ]
+   ],
+   "theory_wrong": [
+    5
+   ],
+   "predicted_sha256": "e201eeb42e736aae205c8b6f13ee2618a10013d94955a6442f0920b7ae34283d"
+  },
+  "c3_self_consistent": {
+   "remap": "cycle(12->6->2)",
+   "host": "C3",
+   "host_labels": [
+    14,
+    13,
+    3,
+    1,
+    15,
+    12,
+    9,
+    0,
+    10,
+    11,
+    4,
+    5,
+    2,
+    8,
+    7,
+    6
+   ],
+   "fabric_labels": [
+    14,
+    13,
+    3,
+    1,
+    15,
+    12,
+    9,
+    0,
+    10,
+    11,
+    4,
+    5,
+    2,
+    8,
+    7,
+    6
+   ],
+   "stale": [],
+   "fresh": [
+    "A",
+    "B12",
+    "B6",
+    "B2"
+   ],
+   "kind": "theory",
+   "theory_packets": [
+    [
+     9,
+     6,
+     9
+    ],
+    [
+     3,
+     2,
+     3
+    ],
+    [
+     4,
+     10,
+     4
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     14,
+     0,
+     14
+    ],
+    [
+     13,
+     1,
+     13
+    ],
+    [
+     2,
+     12,
+     2
+    ],
+    [
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     4,
+     10,
+     4
+    ]
+   ],
+   "theory_wrong": []
+  },
+  "torn_c3_A_stale": {
+   "remap": "cycle(12->6->2)",
+   "host": "clean",
+   "host_labels": [
+    14,
+    13,
+    2,
+    1,
+    15,
+    12,
+    3,
+    0,
+    10,
+    11,
+    4,
+    5,
+    9,
+    8,
+    7,
+    6
+   ],
+   "fabric_labels": [
+    14,
+    13,
+    2,
+    1,
+    15,
+    12,
+    3,
+    0,
+    10,
+    11,
+    4,
+    5,
+    2,
+    8,
+    7,
+    6
+   ],
+   "stale": [
+    "A",
+    "B6",
+    "B2"
+   ],
+   "fresh": [
+    "B12"
+   ],
+   "kind": "absolute",
+   "theory_packets": [
+    [
+     9,
+     12,
+     2
+    ],
+    [
+     3,
+     6,
+     3
+    ],
+    [
+     4,
+     10,
+     4
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     14,
+     0,
+     14
+    ],
+    [
+     13,
+     1,
+     13
+    ],
+    [
+     2,
+     2,
+     2
+    ],
+    [
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     4,
+     10,
+     4
+    ]
+   ],
+   "theory_wrong": [
+    0
+   ],
+   "predicted_sha256": "a0e0ed11de328c58869f72887c293283d63afc959a52b0246b138f51c1bde80a"
+  },
+  "torn_c3_A_fresh": {
+   "remap": "cycle(12->6->2)",
+   "host": "C3",
+   "host_labels": [
+    14,
+    13,
+    3,
+    1,
+    15,
+    12,
+    9,
+    0,
+    10,
+    11,
+    4,
+    5,
+    2,
+    8,
+    7,
+    6
+   ],
+   "fabric_labels": [
+    14,
+    13,
+    3,
+    1,
+    15,
+    12,
+    3,
+    0,
+    10,
+    11,
+    4,
+    5,
+    2,
+    8,
+    7,
+    6
+   ],
+   "stale": [
+    "B6"
+   ],
+   "fresh": [
+    "A",
+    "B12",
+    "B2"
+   ],
+   "kind": "relative",
+   "theory_packets": [
+    [
+     9,
+     6,
+     3
+    ],
+    [
+     3,
+     2,
+     3
+    ],
+    [
+     4,
+     10,
+     4
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     14,
+     0,
+     14
+    ],
+    [
+     13,
+     1,
+     13
+    ],
+    [
+     2,
+     12,
+     2
+    ],
+    [
+     1,
+     3,
+     1
+    ],
+    [
+     0,
+     7,
+     0
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     6,
+     15,
+     6
+    ],
+    [
+     4,
+     10,
+     4
+    ]
+   ],
+   "theory_wrong": [
+    0
+   ],
+   "base": "c3_self_consistent",
+   "rule": "capture == base capture with byte9 := fabric[byte8] and CRC recomputed"
+  }
+ },
+ "claims": {
+  "C1_nonmonotone": {
+   "text": "stale sets {A} < {A,B1} < {A,B0,B1}: wrong-label packets 2 > 1 > 0 (t01_one_sided from phase 31, torn01_A_stale, clean). Monotone failure models forbid this.",
+   "wrong_counts": {
+    "t01_one_sided": 2,
+    "torn01_A_stale": 1,
+    "clean": 0
+   }
+  },
+  "C2_duplicate_label": {
+   "text": "each torn variant shows one label reported by two delivered slots",
+   "expected": {
+    "torn01_A_stale": {
+     "13": [
+      0,
+      1
+     ]
+    },
+    "torn01_A_fresh": {
+     "13": [
+      0,
+      1
+     ]
+    },
+    "c3_self_consistent": {},
+    "torn_c3_A_stale": {
+     "2": [
+      2,
+      12
+     ]
+    },
+    "torn_c3_A_fresh": {
+     "3": [
+      2,
+      6
+     ]
+    }
+   }
+  },
+  "C3_transposition_ambiguous": {
+   "text": "torn01_A_stale and torn01_A_fresh: identical label-only observations, different delivered slots",
+   "label_only_identical": true,
+   "slots_differ": true
+  },
+  "C4_cycle_resolves": {
+   "text": "torn_c3_A_stale vs torn_c3_A_fresh: the wrong label differs, so label-only observation tells which side is stale",
+   "A_stale_wrong": [
+    [
+     0,
+     [
+      9,
+      12,
+      2
+     ]
+    ]
+   ],
+   "A_fresh_wrong": [
+    [
+     0,
+     [
+      9,
+      6,
+      3
+     ]
+    ]
+   ]
+  },
+  "C5_self_consistent_label_invisible": {
+   "text": "c3_self_consistent: zero wrong labels although three slots moved",
+   "theory_wrong": []
+  },
+  "C6_self_consistent_moves_routes": {
+   "text": "c3_self_consistent differs from clean exactly in the packets whose logical source or destination is a moved label (phase-31 pattern: arriving or leaving)",
+   "changed_packets": [
+    0,
+    1,
+    3,
+    7,
+    8
+   ]
+  }
+ }
+}

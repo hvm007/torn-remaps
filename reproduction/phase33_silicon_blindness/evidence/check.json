@@ -1,0 +1,50 @@
+{
+  "blind_04_05": {
+    "law": "BLIND",
+    "trials": 3,
+    "stable": true,
+    "matches_prediction": true,
+    "identical_to_clean": true,
+    "verdict": "PASS"
+  },
+  "blind_08_13": {
+    "law": "BLIND",
+    "trials": 3,
+    "stable": true,
+    "matches_prediction": true,
+    "identical_to_clean": true,
+    "verdict": "PASS"
+  },
+  "blind_11_14": {
+    "law": "BLIND",
+    "trials": 3,
+    "stable": true,
+    "matches_prediction": true,
+    "identical_to_clean": true,
+    "verdict": "PASS"
+  },
+  "visible_06_09": {
+    "law": "VISIBLE",
+    "trials": 3,
+    "stable": true,
+    "matches_prediction": true,
+    "identical_to_clean": false,
+    "verdict": "PASS"
+  },
+  "visible_04_10": {
+    "law": "VISIBLE",
+    "trials": 3,
+    "stable": true,
+    "matches_prediction": true,
+    "identical_to_clean": false,
+    "verdict": "PASS"
+  },
+  "visible_08_15": {
+    "law": "VISIBLE",
+    "trials": 3,
+    "stable": true,
+    "matches_prediction": true,
+    "identical_to_clean": false,
+    "verdict": "PASS"
+  }
+}

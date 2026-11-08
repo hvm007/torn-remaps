@@ -1,0 +1,13 @@
+trials 3, byte-stable True, identical to RTL simulation True
+records 1130 (end record says 1130), CRC errors 0, timeouts/router errors 0
+every record's (source, label, delivered slot, reported label, epoch) == pre-registered: True
+  c0 sentinel order, 1 packet                     label-silent [0, 18]  epoch-silent [18]
+  c1 tables-first order, same packet              label-silent [0, 1, 2, 3, 4, 5, 18]  epoch-silent [18]
+  c2 tables-first order, 2 anchor packets         label-silent [0, 18]  epoch-silent [18]
+  c3 two swaps, split suite (16)                  label-silent [0, 10, 20]  epoch-silent [20]
+  c4 two swaps, bridged suite (17)                label-silent [0, 20]  epoch-silent [20]
+  c5 two swaps, witness packet                    label-silent [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 15, 16, 17, 18, 19, 20]  epoch-silent [13, 14, 15, 16, 17, 18, 19, 20]
+  c6 two swaps, bridged suite, one dropped write  label-silent []  epoch-silent []
+silent interruption points == pre-registered: True
+
+PHASE 36 CONFIRMED

@@ -1,0 +1,6 @@
+Yosys 0.33, NanGate45 typical (no place-and-route). Tristate crossbar converted with tribuf -formal.
+router_slice (hierarchical) 18435.4 um2; crossbar 663.4 um2; mesh 294966.3 um2; phase-36 probe total 300697.6 um2
+identity register (idreg.v, LABEL_W=4): EPOCH_W=0 30.324, EPOCH_W=1 37.772, EPOCH_W=4 60.116 um2
+1-bit epoch overhead 7.448 um2 = 0.040% of a router; 4-bit 29.792 um2 = 0.162%
+16x4 address table (addrtab): 545.832 um2
+Gate-level simulation: not claimed (generic netlist did not reproduce RTL; RTL in Verilator matches Icarus byte for byte).

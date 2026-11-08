@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+reproduction/*/rebuild/
+reproduction/phase37_floonoc_rtl/build*/
+reproduction/phase37_floonoc_rtl/san_*/
+reproduction/asic_nangate45/lib/
+*.jou
+*.dcp

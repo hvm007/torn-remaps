@@ -1,0 +1,42 @@
+{
+  "variants": {
+    "torn01_A_stale": {
+      "stable": true,
+      "byte_exact": true,
+      "theory": true,
+      "verdict": "PASS"
+    },
+    "torn01_A_fresh": {
+      "stable": true,
+      "byte_exact": true,
+      "theory": true,
+      "verdict": "PASS"
+    },
+    "c3_self_consistent": {
+      "stable": true,
+      "byte_exact": null,
+      "theory": true,
+      "verdict": "PASS"
+    },
+    "torn_c3_A_stale": {
+      "stable": true,
+      "byte_exact": true,
+      "theory": true,
+      "verdict": "PASS"
+    },
+    "torn_c3_A_fresh": {
+      "stable": true,
+      "byte_exact": true,
+      "theory": true,
+      "verdict": "PASS"
+    }
+  },
+  "claims": {
+    "C1_nonmonotone": true,
+    "C2_duplicate_label": true,
+    "C3_transposition_ambiguous": true,
+    "C4_cycle_resolves": true,
+    "C5_self_consistent_label_invisible": true,
+    "C6_self_consistent_moves_routes": true
+  }
+}

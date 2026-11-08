@@ -1,0 +1,20 @@
+
+7. Printing statistics.
+
+=== idreg ===
+
+   Number of wires:                 20
+   Number of wire bits:             26
+   Number of public wires:           7
+   Number of public wire bits:      13
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 13
+     AND2_X1                         4
+     DFF_X1                          4
+     INV_X1                          1
+     MUX2_X1                         4
+
+   Chip area for module '\idreg': 30.324000
+

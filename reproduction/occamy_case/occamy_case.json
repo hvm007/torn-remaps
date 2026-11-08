@@ -1,0 +1,38 @@
+{
+ "managers": 29,
+ "regions": 36,
+ "K": 33,
+ "split": 29,
+ "bridged": 30,
+ "escape_state_silent_under_split": true,
+ "escape_state_caught_by_bridged": true,
+ "escape_is_real_fault": {
+  "packet": [
+   [
+    "cluster",
+    0,
+    1
+   ],
+   [
+    "hbm",
+    5
+   ]
+  ],
+  "reported": [
+   "hbm",
+   7
+  ],
+  "asked": [
+   "hbm",
+   5
+  ]
+ },
+ "interruptions_missed_by_split": [
+  17
+ ],
+ "interruptions_missed_by_bridged": [],
+ "split_after_write": 17,
+ "random_states": 2000000,
+ "random_missed_by_bridged": 0,
+ "random_missed_by_split": 0
+}

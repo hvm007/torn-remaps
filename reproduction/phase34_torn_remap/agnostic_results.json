@@ -1,0 +1,114 @@
+[
+ {
+  "N": 3,
+  "NA": 1,
+  "obs": "label",
+  "min": 3,
+  "pred": 3
+ },
+ {
+  "N": 3,
+  "NA": 1,
+  "obs": "pos",
+  "min": 3,
+  "pred": 3
+ },
+ {
+  "N": 3,
+  "NA": 2,
+  "obs": "label",
+  "min": 4,
+  "pred": 4
+ },
+ {
+  "N": 3,
+  "NA": 2,
+  "obs": "pos",
+  "min": 4,
+  "pred": 4
+ },
+ {
+  "N": 3,
+  "NA": 3,
+  "obs": "label",
+  "min": 6,
+  "pred": 6
+ },
+ {
+  "N": 3,
+  "NA": 3,
+  "obs": "pos",
+  "min": 6,
+  "pred": 6
+ },
+ {
+  "N": 3,
+  "NA": 4,
+  "obs": "label",
+  "min": 8,
+  "pred": 8
+ },
+ {
+  "N": 3,
+  "NA": 4,
+  "obs": "pos",
+  "min": 8,
+  "pred": 8
+ },
+ {
+  "N": 4,
+  "NA": 1,
+  "obs": "label",
+  "min": 4,
+  "pred": 4
+ },
+ {
+  "N": 4,
+  "NA": 1,
+  "obs": "pos",
+  "min": 4,
+  "pred": 4
+ },
+ {
+  "N": 4,
+  "NA": 2,
+  "obs": "label",
+  "min": 6,
+  "pred": 6
+ },
+ {
+  "N": 4,
+  "NA": 2,
+  "obs": "pos",
+  "min": 6,
+  "pred": 6
+ },
+ {
+  "N": 4,
+  "NA": 3,
+  "obs": "label",
+  "min": 9,
+  "pred": 9
+ },
+ {
+  "N": 4,
+  "NA": 3,
+  "obs": "pos",
+  "min": 9,
+  "pred": 9
+ },
+ {
+  "N": 4,
+  "NA": 4,
+  "obs": "label",
+  "min": 12,
+  "pred": 12
+ },
+ {
+  "N": 4,
+  "NA": 4,
+  "obs": "pos",
+  "min": 12,
+  "pred": 12
+ }
+]

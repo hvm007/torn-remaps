@@ -1,0 +1,42 @@
+{
+  "clean": {
+    "stable": true,
+    "route_diff": 0,
+    "endpoint_diff": 0,
+    "verdict": "KNOWN(clean)",
+    "trials": 3,
+    "sha256": "7d84c5d8229b8689b9710526161f4d2e67420e84ba289d5db830cfa166980b52"
+  },
+  "t01_self_consistent": {
+    "stable": true,
+    "route_diff": 4,
+    "endpoint_diff": 0,
+    "verdict": "self-consistent",
+    "trials": 3,
+    "sha256": "0549f8a2526bbdff3d25e896af4428ddb76c23f125d3deee328507c8d3a9b12c"
+  },
+  "t01_one_sided": {
+    "stable": true,
+    "route_diff": 0,
+    "endpoint_diff": 2,
+    "verdict": "one-sided",
+    "trials": 3,
+    "sha256": "60a3de793e7a0863dff0ea3d11a359ef2c58587a242ae79b512b478269386e23"
+  },
+  "t0512_self_consistent": {
+    "stable": true,
+    "route_diff": 2,
+    "endpoint_diff": 0,
+    "verdict": "self-consistent",
+    "trials": 3,
+    "sha256": "ccc86761ca73691d1d783a569e2a2cce72386e7685e9f208c04eab0d346dbe79"
+  },
+  "t0512_one_sided": {
+    "stable": true,
+    "route_diff": 0,
+    "endpoint_diff": 1,
+    "verdict": "one-sided",
+    "trials": 3,
+    "sha256": "f24f80a4b0e7f010d6cb3c8bb086bd9af03b1d52d8f94cdf2e8af6b50854198c"
+  }
+}

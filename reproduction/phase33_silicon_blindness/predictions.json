@@ -1,0 +1,130 @@
+{
+  "clean_sha256": "7d84c5d8229b8689b9710526161f4d2e67420e84ba289d5db830cfa166980b52",
+  "D": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7,
+    10,
+    12,
+    15
+  ],
+  "U": [
+    4,
+    5,
+    8,
+    9,
+    11,
+    13,
+    14
+  ],
+  "variants": {
+    "blind_04_05": {
+      "swap": [
+        4,
+        5
+      ],
+      "law_says": "BLIND",
+      "predicted_identical_to_clean": true,
+      "changed_packets": [],
+      "predicted_sha256": "7d84c5d8229b8689b9710526161f4d2e67420e84ba289d5db830cfa166980b52"
+    },
+    "blind_08_13": {
+      "swap": [
+        8,
+        13
+      ],
+      "law_says": "BLIND",
+      "predicted_identical_to_clean": true,
+      "changed_packets": [],
+      "predicted_sha256": "7d84c5d8229b8689b9710526161f4d2e67420e84ba289d5db830cfa166980b52"
+    },
+    "blind_11_14": {
+      "swap": [
+        11,
+        14
+      ],
+      "law_says": "BLIND",
+      "predicted_identical_to_clean": true,
+      "changed_packets": [],
+      "predicted_sha256": "7d84c5d8229b8689b9710526161f4d2e67420e84ba289d5db830cfa166980b52"
+    },
+    "visible_06_09": {
+      "swap": [
+        6,
+        9
+      ],
+      "law_says": "VISIBLE",
+      "predicted_identical_to_clean": false,
+      "changed_packets": [
+        {
+          "packet": 1,
+          "slot": 6,
+          "clean_label": 3,
+          "predicted_label": 11
+        }
+      ],
+      "predicted_sha256": "43cd79e59e80409b828cdf77a502963ac5713a951aa247ea80a8b463c250d5a6"
+    },
+    "visible_04_10": {
+      "swap": [
+        4,
+        10
+      ],
+      "law_says": "VISIBLE",
+      "predicted_identical_to_clean": false,
+      "changed_packets": [
+        {
+          "packet": 2,
+          "slot": 10,
+          "clean_label": 4,
+          "predicted_label": 15
+        },
+        {
+          "packet": 12,
+          "slot": 10,
+          "clean_label": 4,
+          "predicted_label": 15
+        }
+      ],
+      "predicted_sha256": "a334d4e400dfb74961eb282cef22b58ce962cdfd6b6f79d5ca0e895ea6b537e2"
+    },
+    "visible_08_15": {
+      "swap": [
+        8,
+        15
+      ],
+      "law_says": "VISIBLE",
+      "predicted_identical_to_clean": false,
+      "changed_packets": [
+        {
+          "packet": 3,
+          "slot": 15,
+          "clean_label": 6,
+          "predicted_label": 10
+        },
+        {
+          "packet": 4,
+          "slot": 15,
+          "clean_label": 6,
+          "predicted_label": 10
+        },
+        {
+          "packet": 10,
+          "slot": 15,
+          "clean_label": 6,
+          "predicted_label": 10
+        },
+        {
+          "packet": 11,
+          "slot": 15,
+          "clean_label": 6,
+          "predicted_label": 10
+        }
+      ],
+      "predicted_sha256": "dcb3677b9e0d932092c5d60c0d5dc50681f8a80c40e90828dcaa3bca1583d04a"
+    }
+  }
+}

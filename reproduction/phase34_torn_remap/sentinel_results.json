@@ -1,0 +1,22 @@
+{
+ "checks": {
+  "S1": 34272,
+  "S1_bad": 0,
+  "S2": 300,
+  "S2_bad": 0,
+  "S3": 200,
+  "S3_bad": 0
+ },
+ "random_order_min_suite": {
+  "mean": 1.6666666666666667,
+  "min": 1,
+  "max": 2,
+  "one_packet_fraction": 0.3333333333333333
+ },
+ "sentinel_order_all_detected": true,
+ "S4": {
+  "trials": 150,
+  "pos_one_fails": 0,
+  "label_two_fails": 0
+ }
+}

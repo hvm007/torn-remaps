@@ -1,0 +1,20 @@
+{
+ "suite_size": 240,
+ "transpositions": {
+  "checked": 120,
+  "incomplete": 0
+ },
+ "other_shapes": {
+  "checked": 28,
+  "incomplete": 0
+ },
+ "negative": {
+  "suite_size": 239,
+  "escapes": [
+   "0b1",
+   "0b111111111111111110"
+  ],
+  "as_predicted": true,
+  "escape_is_real_fault": true
+ }
+}

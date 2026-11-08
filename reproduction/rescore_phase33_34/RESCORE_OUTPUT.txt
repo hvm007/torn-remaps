@@ -1,0 +1,30 @@
+== phase 33 ==
+blind_04_05     blind=True  ==clean=True  wrong pkts=[] slack=4.716  (labels [15, 12] misdeliver in operation)
+blind_08_13     blind=True  ==clean=True  wrong pkts=[] slack=4.359  (labels [10, 8] misdeliver in operation)
+blind_11_14     blind=True  ==clean=True  wrong pkts=[] slack=8.319  (labels [5, 7] misdeliver in operation)
+visible_06_09   blind=False ==clean=False wrong pkts=[1] slack=7.783  (labels [3, 11] misdeliver in operation)
+visible_04_10   blind=False ==clean=False wrong pkts=[2, 12] slack=8.031  (labels [15, 4] misdeliver in operation)
+visible_08_15   blind=False ==clean=False wrong pkts=[3, 4, 10, 11] slack=6.635  (labels [10, 6] misdeliver in operation)
+
+== phase 34 ==
+torn01_A_stale       wrong pkts=[(5, (14, 0, 13))]  slack=7.073
+torn01_A_fresh       wrong pkts=[(5, (14, 1, 13))]  slack=8.707
+c3_self_consistent   wrong pkts=[]  slack=8.894
+torn_c3_A_stale      wrong pkts=[(0, (9, 12, 2))]  slack=4.543
+torn_c3_A_fresh      wrong pkts=[(0, (9, 6, 3))]  slack=7.755
+v1 vs clean                      only label+CRC bytes differ: True  (packets differing: [5])
+v4 vs clean                      only label+CRC bytes differ: True  (packets differing: [0])
+v2 vs phase31 self-consistent    only label+CRC bytes differ: True  (packets differing: [5])
+v5 vs v3                         only label+CRC bytes differ: True  (packets differing: [0])
+
+C1 stale {A} < {A,B1} < {A,B0,B1}: wrong = (2, 1, 0) True
+C2 duplicate labels: {'torn01_A_stale': {13: [0, 1]}, 'torn01_A_fresh': {13: [0, 1]}, 'c3_self_consistent': {}, 'torn_c3_A_stale': {2: [2, 12]}, 'torn_c3_A_fresh': {3: [2, 6]}} True
+C3 swap: label-only identical True | slots differ True True
+C4 cycle: v4 pkt0 (9, 12, 2) v5 pkt0 (9, 6, 3) True
+C5 consistent remap: wrong = [] True
+C6 consistent remap changes packets [0, 1, 3, 7, 8] True
+
+pre-registration hashes (phase 34) intact: True
+phase 33 predictions.json sha256 starts 3033e7c5 (registered 3033e7c5)
+
+INDEPENDENT RESCORE: ALL CONFIRMED
